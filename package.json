@@ -1,0 +1,21 @@
+{
+  "name": "agent-api-service",
+  "version": "1.0.0",
+  "description": "AI-powered security scanning and research API with x402 micropayments on Base",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "@x402/express": "latest",
+    "@x402/core": "latest",
+    "@x402/evm": "latest",
+    "express": "^4.19.0",
+    "node-fetch": "^3.3.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
